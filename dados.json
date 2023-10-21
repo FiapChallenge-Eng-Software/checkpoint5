@@ -1,19 +1,6 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "produtos": [
+    { "id": 1, "nome": "Mouse", "preço": 9.99 },
+    { "id": 2, "nome": "Teclado", "preço": 14.99 }
+  ]
 }
