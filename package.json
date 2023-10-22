@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "backend": "json-server --watch dados.json port-- 5000"
+    "backend": "json-server --watch dados.json --port 5000"
   },
   "dependencies": {
     "node-fetch": "^3.3.2",
@@ -27,6 +27,6 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3",
-    "vite": "^4.4.5"
+    "vite": "^4.5.0"
   }
 }
